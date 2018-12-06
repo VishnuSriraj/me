@@ -499,44 +499,6 @@ $(function(){
     });
 
 
-  /*------------------------------------------------------
-  Javascript Function for initialize owl carousel
-  --------------------------------------------------------*/
-
-    if (!!$.prototype.owlCarousel) {
-
-      $(".home-3 .home-carousel").owlCarousel({
-        nav: true,
-        navText : [
-          "<div class='home-slider-btn effect ver-center'><i class='fa fa-chevron-left center'></i><span></span></div>",
-          "<div class='home-slider-btn effect ver-center'><i class='fa fa-chevron-right center'></i><span></span></div>"
-        ],
-        dots: true,
-        loop: true,
-        items: 1,
-      });
-
-      $(".testimonial-slider").owlCarousel({
-        loop: true,
-        nav: true,
-        navText : [
-          "<div class='testimonial-slider-btn effect hor-center'><i class='fa fa-angle-left center'></i></div>",
-          "<div class='testimonial-slider-btn effect hor-center'><i class='fa fa-angle-right center'></i></div>"
-        ],
-        margin: 20,
-        responsive : {
-            0 : {
-              items: 1,
-            },
-            780 : {
-              items: 2,
-            },
-          }
-      });
-
-    }
-
-
 /*------------------------------------------------------------------------
  Javascript Function for Validate and Submit the CONTACT Form Using AJAX
 -------------------------------------------------------------------------*/
@@ -556,7 +518,7 @@ $(function(){
           if (res) {
             $(".email-error").html("");
           } else {
-            $(".email-error").html("please enter a valid email.");
+            $(".email-error").html("Please enter a valid email.");
             return false;
           }
 
@@ -567,7 +529,7 @@ $(function(){
 
           if ($(this).val() === "") {
 
-            targetMessage.html("please enter a valid "+target+".");
+            targetMessage.html("Please enter a valid "+target+".");
             return false;
 
           } else { 
