@@ -437,15 +437,6 @@ Home
     top: 0;
     z-index: 3;
 }
-.home-carousel .first-slide {
-	background-image: url(http://phydev.web44.net/flame/img/banner-3.jpg);
-}
-.home-carousel .second-slide {
-	background-image: url(http://phydev.web44.net/flame/img/home-s.jpg);
-}
-.home-carousel .third-slide {
-	background-image: url(http://phydev.web44.net/wassabi/images/man-work.jpg);
-}
 .slider-btn {
 	display: inline-block;
 	margin-top: 20px;
